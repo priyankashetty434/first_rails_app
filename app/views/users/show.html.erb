@@ -1,0 +1,9 @@
+<h3>User Details</h3>
+
+<p>Name: <b><%= @user.name %></b></p>
+<p>Address: <b><%= @user.address %></b></p>
+<p>Created At: <b><%= @user.created_at %></b></p>
+<p>Updated At: <b><%= @user.updated_at %></b></p>
+
+<%= link_to 'List Users', users_path %><br>
+<%= link_to 'Edit', edit_user_path %>
